@@ -1,7 +1,7 @@
 ### Car Sharing
 
 ## Demo version:
-https://carsharingsimplelayout.netlify.app
+https://bonifacy1231.github.io/CarSharing/
 
 ## Site Description:
 
