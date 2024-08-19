@@ -13,7 +13,7 @@
 .footer__logo a {
 	font-size: 2.5rem;
 	text-decoration: none;
-	color: red;
+	color: var(--primary-color);
 	font-weight: bold;
 }
 
@@ -56,5 +56,5 @@
 }
 
 .footer__link:hover {
-	color: red;
+	color: var(--primary-color);
 }

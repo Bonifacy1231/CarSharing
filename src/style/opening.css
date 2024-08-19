@@ -26,43 +26,43 @@
   text-transform: uppercase;
   font-size: 9rem;
   margin-bottom: 25px;
-  text-shadow: 0px 3px 6px grey;
+  text-shadow: 0px 3px 6px var(--second-color);
 }
 
 .hero__text {
   font-size: 1.6rem;
   margin-bottom: 55px;
-  text-shadow: 0px 3px 6px grey;
+  text-shadow: 0px 3px 6px var(--second-color);
 }
 
 .hero__btn__left {
   transition: 0.2s;
   color: white;
-  background-color: #ff0000;
+  background-color: var(--primary-color);
   margin-right: 25px;
-  text-shadow: 0px 3px 6px grey;
+  text-shadow: 0px 3px 6px var(--second-color);
   box-shadow: 0px 3px 6px #ff00004d;
 }
 
 .hero__btn__left:active {
   background-color: white;
-  color: #ff0000;
-  box-shadow: 0px 3px 6px grey;
-  text-shadow: 0px 3px 6px grey;
+  color: var(--primary-color);
+  box-shadow: 0px 3px 6px var(--second-color);
+  text-shadow: 0px 3px 6px var(--second-color);
 }
 
 .hero__btn__right {
   transition: 0.2s;
-  color: #ff0000;
+  color: var(--primary-color);
   background-color: white;
   text-shadow: 0px 3px 6px #ff00004d;
-  box-shadow: 0px 3px 6px grey;
+  box-shadow: 0px 3px 6px var(--second-color);
 }
 
 .hero__btn__right:active {
-  background-color: #ff0000;
+  background-color: var(--primary-color);
   color: white;
-  text-shadow: 0px 3px 6px grey;
+  text-shadow: 0px 3px 6px var(--second-color);
   box-shadow: 0px 3px 6px #ff00004d;
 }
 

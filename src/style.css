@@ -7,55 +7,57 @@
 @import url(../src/style/footer.css);
 
 :root {
-  --primary-color: #ff0000;
+	--primary-color: #ff0000;
+	--second-color: #b2b2b2;
+	--third-color: #6a6a6a;
 }
 
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: 0;
+	padding: 0;
+	margin: 0;
+	box-sizing: 0;
 }
 
 html {
-  font-size: 10px;
-  font-family: "Nunito Sans", sans-serif;
-  scroll-behavior: smooth;
+	font-size: 10px;
+	font-family: "Nunito Sans", sans-serif;
+	scroll-behavior: smooth;
 }
 
 .container {
-  margin: 0 auto;
-  width: 1088px;
+	margin: 0 auto;
+	width: 1088px;
 }
 
 .btn__priamary {
-  text-transform: uppercase;
-  font-size: 16px;
-  padding: 22px 55px;
-  border-radius: 35px;
-  border: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	padding: 22px 55px;
+	border-radius: 35px;
+	border: none;
 }
 
 .btn__secondary {
-  text-transform: uppercase;
-  padding: 11px 29px;
-  background-color: var(--primary-color);
-  transition: 0.2s;
-  color: white;
-  background-color: #ff0000;
-  text-shadow: 0px 3px 6px grey;
-  box-shadow: 0px 3px 6px #ff00004d;
-  border: none;
-  border-radius: 40px;
+	text-transform: uppercase;
+	padding: 11px 29px;
+	background-color: var(--primary-color);
+	transition: 0.2s;
+	color: white;
+	background-color: #ff0000;
+	text-shadow: 0px 3px 6px var(--third-color);
+	box-shadow: 0px 3px 6px #ff00004d;
+	border: none;
+	border-radius: 40px;
 }
 
 .title__line::before,
 .title__line::after {
-  margin: 5px;
-  content: "";
-  display: block;
-  height: 3px;
-  background: var(--primary-color);
-  width: 50px;
-  border-radius: 8px;
-  box-shadow: 0px 1px 6px #ff00004d;
+	margin: 5px;
+	content: "";
+	display: block;
+	height: 3px;
+	background: var(--primary-color);
+	width: 50px;
+	border-radius: 8px;
+	box-shadow: 0px 1px 6px #ff00004d;
 }
