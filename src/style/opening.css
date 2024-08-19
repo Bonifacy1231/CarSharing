@@ -1,0 +1,99 @@
+.opennig__view {
+  position: relative;
+  background-image: url(../assets/img/Image@2x.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.hero {
+  height: 90%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero .container {
+  z-index: 2;
+}
+
+.hero__title {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 9rem;
+  margin-bottom: 25px;
+  text-shadow: 0px 3px 6px grey;
+}
+
+.hero__text {
+  font-size: 1.6rem;
+  margin-bottom: 55px;
+  text-shadow: 0px 3px 6px grey;
+}
+
+.hero__btn__left {
+  transition: 0.2s;
+  color: white;
+  background-color: #ff0000;
+  margin-right: 25px;
+  text-shadow: 0px 3px 6px grey;
+  box-shadow: 0px 3px 6px #ff00004d;
+}
+
+.hero__btn__left:active {
+  background-color: white;
+  color: #ff0000;
+  box-shadow: 0px 3px 6px grey;
+  text-shadow: 0px 3px 6px grey;
+}
+
+.hero__btn__right {
+  transition: 0.2s;
+  color: #ff0000;
+  background-color: white;
+  text-shadow: 0px 3px 6px #ff00004d;
+  box-shadow: 0px 3px 6px grey;
+}
+
+.hero__btn__right:active {
+  background-color: #ff0000;
+  color: white;
+  text-shadow: 0px 3px 6px grey;
+  box-shadow: 0px 3px 6px #ff00004d;
+}
+
+.hero::before {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  content: "";
+  position: absolute;
+  background: radial-gradient(circle, transparent 50%, rgba(0, 0, 0, 0.5) 100%);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.arrow__box {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 50%;
+  transform: translateX(-50%) translateY(-49%);
+  height: 55px;
+  width: 55px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.arrow {
+  height: 25px;
+  width: 25px;
+}
